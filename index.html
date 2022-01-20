@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- Bootstrap 4.5 CSS -->
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap.css">
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap-grid.css">
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap-reboot.css">
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/87043ee6ed.js" crossorigin="anonymous"></script>
+		<!-- My Stylesheet -->
+		<link rel="stylesheet" href="resources\style.css">
+		
+
+	</head>
+	<body>
+		
+		<!-- Navigation Bar -->
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a href="index.html" class="navbar-brand">Inverner</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<div class="navbar-nav ml-auto">
+					<a href="index.html" class="nav-item nav-link">Home</a>
+					<div class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+						<div class="dropdown-menu">
+							<a href="" class="dropdown-item">Web Development</a>
+							<a href="" class="dropdown-item">Graphic Design</a>
+							<a href="" class="dropdown-item">Computer Programming</a>
+						</div>
+					</div>
+					<a href="" class="nav-item nav-link">Our Team</a>
+					<a href="" class="nav-item nav-link">Contact Us</a>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Carousel -->
+			<div class="carousel slide" data-ride="carousel" id="heroCarousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="resources/img/hero-image-1.jpg" alt="Coarousel Image 1">
+						<div class="carousel-caption text-center">
+							<h1 class="display-2">Create The Best</h1>
+							<p class="d-none d-md-inline-block">We will make you the best website for your need. Wheather it maybe a business website, or a personal we are always here for you. And ofcouse we will follow along with your personal preferences(Example: Bootstrap, Wordpress, Plain HTML, CSS, JS)</p>
+							<p class="d-inline-block d-md-none">Our Team members work day and night to offer the best quality</p>
+							<button class="btn btn-outline-secondary btn-lg">Watch Portfolio</button>
+							<button class="btn btn-primary btn-lg">Contact Us</button>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="resources/img/hero-image-2.jpg" alt="Coarousel Image 2">
+						<div class="carousel-caption text-center">
+							<h1 class="display-2">Quality Work</h1>
+							<p class="d-none d-md-inline-block">We believe you want the best value, that's why we provide the quality work that you deserve. We work as a team on each and every project to make sure that our client always gets to know about different opinions on their projects</p>
+							<p class="d-inline-block d-md-none">Most of our team members have a minimum of 5 years of experience.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="resources/img/hero-image-3.jpg" alt="Coarousel Image 3">
+						<div class="carousel-caption text-center">
+							<h1 class="display-2">We value your Time</h1>
+							<p class="d-none d-md-inline-block">We realize that time is meaningful to you as much it is to us. That is why we always work day and night without wasting time so that you can get your website within the shortest possible time</p>
+							<p class="d-inline-block d-md-none">At Inverner, we value your time as much as we do for ours.</p>
+						</div>
+					</div>
+					<ul class="carousel-indicators">
+						<li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#heroCarousel" data-slide-to="1"></li>
+						<li data-target="#heroCarousel" data-slide-to="2"></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Welcome Area -->
+			<div class="container-fluid">
+				<div class="row my-text text-center" id="welcome">
+					<div class="col-12">
+						<h1 class="display-2 padding">Welcome</h1>
+					</div>
+					<div class="col-12">
+						<hr class="">
+					</div>
+					<div class="d-none d-lg-block col-0 col-lg-1"></div>
+					<div class="col-12 col-lg-6 text-left  align-self-center">
+						<p class="lead">Hello and welcome to inverner. In here, we provide all sorts of meterials you need for full-stack web development. With an experience of more than 5 years, our team members have worked with a huge number of clients all across the globe. We always value our clients' prefrerences. If you like Wordpress, we work with Wordpress. If you prefer BootStrap, we're on it too</p>
+						<div class="text-center text-lg-left">
+							<button type="button" class="btn btn-primary btn-lg">Contact Us</button>
+						</div>
+					</div>
+					
+					<div class="col-12 col-lg-4">
+						<img src="resources/img/welcome.jpg" alt="welcome-images" class="img-fluid img-thumbnail">
+					</div>
+
+				</div>
+			</div>
+			
+			<hr class="my-4">
+			<!-- Services Area -->
+			<div class="container-fluid" id="service-heading">
+				<div class="row padding my-text text-center">
+					<div class="col-12"><h1 class="display-2">Our Services</h1></div>
+					<hr>
+				</div>
+			</div>
+
+
+			<div class="container-fluid" id="service-main">
+				<div class="row text-center padding" >
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-html5"></i>
+						<h3 class="display-4">HTML</h3>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-css3-alt"></i>
+						<h3 class="display-4">CSS3</h3>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-js-square"></i>
+						<h3 class="display-4">JavsScript</h3>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-bootstrap"></i>
+						<h3 class="display-4">Bootstrap 4</h3>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-wordpress"></i>
+						<h3 class="display-4">Wordpress</h3>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<i class="fab fa-python"></i>
+						<h3 class="display-4">Python for web</h3>
+					</div>
+				</div>
+				<hr class="my-4 padding">
+			</div>
+		
+		<!-- Extra Info -->
+		<div class="container-fluid">
+			<div class="row my-text text-left" id="extra">
+				<div class="col-0 col-lg-2"></div>
+				<div class="col-12 col-lg-4 text-right">
+					<img src="resources/img/extra-1.jpg" alt="Secondary Image" class="img-fluid img-thumbnail">
+				</div>
+				<div class="col-12 col-lg-5">
+					<h1 class="display-4">How does it work?</h1>
+					<p class="lead">First contact our team member and tell them about your project. If you have already have a desing ready, then that's great, we can start working rightaway. If not, our team will talk about your likings and things we should avoid in your website. We will then suggest you different sketch of your website. Then you can finalize your website and we can start working. We will update you on each and every progress made to your website</p>
+					<button class="btn btn-primary btn-lg" type="button">Learn More</button>
+				</div>
+				<div class=""></div>
+				
+			</div>
+		</div>
+		<hr class="my-4">
+		
+		<!-- Fixed Background -->
+		<figure>
+			<div class="fixed-wrap">
+				<div id="fixed"></div>
+			</div>
+		</figure>
+
+		<!-- <div style="margin-bottom: 100px"></div> -->
+			
+
+		<!-- Team Section -->
+		<div class="container-fluid">
+			<div class="row padding my-text" id="team">
+				<div class="col-12 text-center">
+					<h1 class="display-2 padding">The Team</h1>
+				</div>
+				<div class="col-12"><hr></div>
+				
+				<!-- <div class="col-0 col-lg-1"></div> -->
+				<div class="col-12 col-md-4">
+					<div class="card">
+						<img src="resources/img/team-1.jpg" alt="Team Member One" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Taharin Akter Nurany</h5>
+							<h6 class="card-subtitle text-muted mb-2">Web Developer</h6>
+							<p class="card-text">Nurany is an amazing web developer with over 6 years of experience. She will build up all the functionalites that your website requires to give it a perfect finish.</p>
+							<button class="btn btn-primary" type="button">View Resume</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card">
+						<img src="resources/img/team-2.jpg" alt="Team Member Two" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Abiruzzaman Palok</h5>
+							<h6 class="card-subtitle text-muted mb-2">Programmer</h6>
+							<p class="card-text">Palok has been working with different programming languages since his childhood. He will assist the other workers with his vast knowledge.</p>
+							<button class="btn btn-primary" type="button">View Resume</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card">
+						<img src="resources/img/team-3.jpg" alt="Team Member Three" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Samuerl Jake</h5>
+							<h6 class="card-subtitle text-muted mb-2">Web Designer</h6>
+							<p class="card-text">A perfect designer for your perfect Design. Samuel will take care of all the desingning part of the project and will give a perfect look to your website that suits the best.</p>
+							<button class="btn btn-primary" type="button">View Resume</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Connect -->
+		<div class="container-fluid">
+			<div class="row text-center padding" id="connect">
+				<div class="col-12"><h1 class="display-4">Connect</h1></div>
+				<div class="col-12"><hr></div>
+				<div class="col-12">
+					<div id="different-2">
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+						<a href="#"><i class="fab fa-instagram-square"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer class="container-fluid">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1 class="display-4">Inverner</h1>
+				</div>
+				<div class="col-12 col-lg-4">
+					<hr>
+					<h3 class="display-4">Contact Info: </h3>
+					<hr class="light">
+					<p class="m-0">Email: admin@inverner.com</p>
+					<p class="m-0">Phone: +8801639475939</p>
+					<p class="m-0">Address: 221B Baker Street</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<hr class="light">
+					<h3 class="display-4">Services</h3>
+					<hr class="light">
+					<a href="#" class="d-block">HTML5</a>
+					<a href="#" class="d-block">CSS3</a>
+					<a href="#" class="d-block">JavaScript</a>
+					<a href="#" class="d-block">BootStrap4</a>
+					<a href="#" class="d-block">Python for Web</a>
+				</div>
+				<div class="col-12 col-lg-4">
+					<hr class="light">
+					<h3 class="display-4">Sitemap</h3>
+					<hr class="light">
+					<a href="#" class="d-block">Home</a>
+					<a href="#" class="d-block">Portfolio</a>
+					<a href="#" class="d-block">Team</a>
+					<a href="#" class="d-block">About us</a>
+					<a href="#" class="d-block">Contact</a>
+				</div>
+				<hr class="mt-4 mb-0">
+				<div class="col-4 mr-auto">&copy All rights reserved by Inverner.com</div>
+				<div class="col-8 text-right">www.inverner.com</div>
+			</div>
+		</footer>
+
+		<!-- Bootstrap 4.5 JS -->
+		<script src="resources\bootstrap\jquery.js"></script>
+		<script src="resources\bootstrap\popper.js"></script>
+		<script src="resources\bootstrap\bootstrap.js"></script>
+
+		<!-- My JS -->
+		<script src="resources\myscript.js"></script>
+	</body>
+</html>
+
